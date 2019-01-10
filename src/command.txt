@@ -1,0 +1,31 @@
+let login = ('who is there ?', '');
+        if (login == 'admin') {
+            let password = ('password is', '');
+            if (password == '"TheMaster"') {
+                alert('welcome !');
+            } else if (password == '' || password == null) {
+                alert('canceled !');
+            } else {
+                alert('wrong password !!!');
+            }
+        } else if (login == '' || login == null) {
+            alert('canceled !');
+        } else {
+            alert('I dont know you !!');
+        }
+
+
+
+        onBlur() {
+         if(!this.state.email || !this.state.pass){
+            this.setState({toggleView: true})
+        } else {
+            this.setState({toggleView: false})
+        }
+
+        else if(!this.state.email){
+            this.setState({toggleView: true})
+        }
+        else if(!this.state.pass){
+                this.setState({toggleView: true})
+            }

@@ -1,0 +1,86 @@
+body {
+  background-color: whitesmoke;
+}
+.navbar {
+  background: rgb(13, 13, 194);
+  padding: 40px 100px 50px 200px;
+}
+h1 {
+  color: whitesmoke;
+  margin: -15px;
+
+  font-size: 40px;
+  float: left;
+}
+.right {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(13, 13, 194);
+  margin: -35px;
+}
+.right > p {
+  color: whitesmoke;
+  font-size: 15px;
+}
+.right > div {
+  color: whitesmoke;
+  font-size: 15px;
+  margin: 0 5px;
+}
+
+button {
+  background-color: rgb(13, 13, 194);
+  color: white;
+}
+.click {
+  display: flex;
+  align-items: flex-end;
+}
+.signUp {
+  float: right;
+  padding-right: 200px;
+  font-size: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: inline-flex;
+  margin: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 0 10px 10px 0;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.active {
+  font-size: 10px;
+}
+.form-check {
+  display: inline;
+}
+span {
+  display: block;
+}
+.submit {
+  background-color: green;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.user {
+  color: red;
+  font-size: 8px;
+}
