@@ -1,0 +1,34 @@
+.Winter {
+  background-color: aqua;
+}
+
+.Summer {
+  background-color: orange;
+}
+
+i.snowflake {
+  color: blue;
+}
+
+i.sun {
+  color: yellow;
+}
+
+.i-left {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.i-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.diplay-season {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}

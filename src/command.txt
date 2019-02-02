@@ -29,3 +29,22 @@ let login = ('who is there ?', '');
         else if(!this.state.pass){
                 this.setState({toggleView: true})
             }
+
+import React, { Component } from 'react';
+import './page.css';
+
+class Page extends Component {
+    render(){
+        return (
+            <div>
+                <p>hello</p>
+                <h1>world</h1>
+            </div>
+        )
+    }
+}
+
+export default Page;
+
+how to add by installing
+npm i faker
