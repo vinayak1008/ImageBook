@@ -1,0 +1,62 @@
+import React, { Component } from "react";
+
+class  extends Component {
+  render() {
+    return (
+        <div className="">
+            <div className=""></div>
+        </div>
+         );
+  }
+}
+export default ;
+
+import  from "..//";
+
+@media only screen and (max-width: 600px)
+
+<div className="gallery-view">
+              {galleryPic.map(items => (
+                <div key={items.name1} className="card img-fluid">
+                  <img className="card-img-top tab1" src={items.img} />
+
+                  <div className="card-img-overlay-tab">
+                    <div className="text-tab">
+                      <h4 className="card-title tab">{items.name}</h4>
+                      <p className="card-text tab">{items.name1}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+    
+for routing:
+(install react-router-dom & history by npm i ...)
+import { createBrowserHistory } from 'history';
+import { Route, Switch, Router } from 'react-router-dom';
+
+const history = createBrowserHistory();
+ReactDOM.render(
+    <div>
+        <Router history={history}>
+            <div>
+                <Switch>
+                    <Route exact path="/" component={Mainpage} />
+</Switch>
+            </div>
+        </Router>
+    </div>
+    , document.getElementById('root')
+);
+
+link:
+import { Link } from "react-router-dom";
+<Link to="/Maths" className="link-page">
+                  Math
+                </Link>
+
+import myImage from '../../assets/image.png';
+
+/* ... */
+
+background-image: url(${myImage});

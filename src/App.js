@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import './App.css';
 
 class App extends Component {
@@ -14,7 +15,7 @@ class App extends Component {
     handleLogin() {
         if(this.state.email === 'admin'){
             if(this.state.pass === '12345'){
-                alert("Welcome! you are logged In");
+                console.log("Welcome! you are logged In");
             }
             
             else{
@@ -72,7 +73,10 @@ class App extends Component {
                 </div>
 
                 <div className="click">
-                    <button onClick={this.handleLogin}>LogIn</button>
+                    <button onClick={this.handleLogin}>
+                        <Link to="/homepage" className="link-page">
+                            LogIn
+                        </Link></button>
                 </div>
             </div>
         </div>
@@ -289,6 +293,7 @@ class App extends Component {
             </p>
             <button className="submit">Sign Up</button>
         </div>
+        
         </div>
 
     );
