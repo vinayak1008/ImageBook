@@ -4,7 +4,7 @@ import Comment from "./comment";
 import "./page.scss";
 import Approval from "./approvalcard";
 
-class Card extends Component {
+class CardView extends Component {
   render() {
     return (
       <div className="ui container comments">
@@ -25,4 +25,4 @@ class Card extends Component {
   }
 }
 
-export default Card;
+export default CardView;

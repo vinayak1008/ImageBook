@@ -4,9 +4,10 @@ import { createBrowserHistory } from 'history';
 import { Route, Switch, Router } from 'react-router-dom';
 import Homepage from './homepage';
 import App from './App';
-import Picture from './Picture';
 import Season from './season';
+import Picture from './picture';
 import VideoList from './videolist';
+import Card from './card';
 
 const history = createBrowserHistory();
 ReactDOM.render(
@@ -19,6 +20,7 @@ ReactDOM.render(
                     <Route exact path="/season" component={Season} />
                     <Route exact path="/Picture" component={Picture} />
                     <Route exact path="/videolist" component={VideoList} />
+                    <Route exact path="/card" component={Card} />
                 </Switch>
             </div>
         </Router>

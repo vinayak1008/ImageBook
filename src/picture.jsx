@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Figure from './season/display'
+import Figure from './figure/figure'
 
 class Picture extends Component {
   render() {

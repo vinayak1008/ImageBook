@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import Video from './video/video';
+import CardView from './card/page';
 
-class VideoList extends Component {
+class Card extends Component {
   render() {
     return (
         <div className="video">
-            <Video />
+            <CardView />
         </div>
          );
   }
 }
-export default VideoList;
+export default  Card;
