@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import SeasonDisplay from "./display";
 
-class Season extends React.Component {
+class SeasonView extends React.Component {
   constructor(props) {
     super(props);
     this.state = { lat: null, errMsg: null };
@@ -25,4 +25,4 @@ class Season extends React.Component {
   }
 }
 
-export default Season;
+export default SeasonView;

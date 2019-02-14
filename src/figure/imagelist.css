@@ -1,0 +1,18 @@
+
+.view {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+
+.image-view {
+    margin-top: 1%;
+    width: 275px;
+    height: 250px;    
+}
+img.card-img-top {
+    width: 250px;
+    margin-top: 1%;
+  }

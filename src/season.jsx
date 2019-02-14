@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import SeasonDisplay from './season/display'
+import SeasonView from './season/display'
 
 class Season extends Component {
   render() {
     return (
         <div className="season">
-            <SeasonDisplay />
+            <SeasonView />
         </div>
          );
   }

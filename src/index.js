@@ -8,6 +8,7 @@ import Season from './season';
 import Picture from './picture';
 import VideoList from './videolist';
 import Card from './card';
+import Reg from './reg';
 
 const history = createBrowserHistory();
 ReactDOM.render(
@@ -21,6 +22,7 @@ ReactDOM.render(
                     <Route exact path="/Picture" component={Picture} />
                     <Route exact path="/videolist" component={VideoList} />
                     <Route exact path="/card" component={Card} />
+                    <Route exact path="/reg" component={Reg} />
                 </Switch>
             </div>
         </Router>

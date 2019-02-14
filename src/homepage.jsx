@@ -16,6 +16,13 @@ class Homepage extends Component {
                     </li>
                     <li>
                         <h2>
+                            <Link to="/reg" className="link-page">
+                                Registration
+                            </Link>
+                        </h2>
+                    </li>
+                    <li>
+                        <h2>
                             <Link to="/season" className="link-page">
                                 Season
                             </Link>
