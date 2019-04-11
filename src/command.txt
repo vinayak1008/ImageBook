@@ -67,3 +67,5 @@ npm i faker
 <div key={pics.id} className="pic-view" >
  {/* <img className="image" alt={pics.slug} src={pics.urls.regular} /> */}
       // </div>
+
+

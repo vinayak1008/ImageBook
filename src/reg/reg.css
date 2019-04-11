@@ -1,3 +1,18 @@
 .jumbotron.jumbotron-fluid{
         background-color: blue;
     }
+.reg-form h2.display-4{
+    color: yellow;
+}
+p.lead{
+    color: yellowgreen;
+}
+label.form-check-label{
+    font-size: 20px;
+}
+.checkBox{
+    display: flex;
+}
+p.user{
+    color: red;
+}
